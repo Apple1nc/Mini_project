@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY','django-insecure-19+&gfg&42utqlrb&-mb6)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'True')=="True"
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', "https://ecommerce-mini-project.onrender.com"]
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', "ecommerce-mini-project.onrender.com"]
 
 
 
