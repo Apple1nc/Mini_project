@@ -179,6 +179,12 @@ function removeFromCart(itemId) {
 
 
 function toggleCart() {
+    if (document.querySelector('.js-show-cart-button').innerHTML === 'Show Cart') {
+        document.querySelector('.js-show-cart-button').innerHTML = 'Hide Cart';
+    } else {
+        document.querySelector('.js-show-cart-button').innerHTML = 'Show Cart';
+    }
+
     const cartList = document.getElementById('cart-list');
     if (cartList.style.display === 'none') {
         cartList.style.display = 'block';
